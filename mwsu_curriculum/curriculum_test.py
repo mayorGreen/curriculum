@@ -31,22 +31,22 @@ def test_hours_per_semester_returns_a_list():
     assert isinstance(hours_per_semester(), list)
 
 #This set of tests asserts that hours_per_semester returns a list of tuples
-def test_hours_per_semester_returns_a_list_of_tuples():
+def test_hours_per_semester_returns_a_list_of_tuples_1():
     assert isinstance(hours_per_semester()[0], tuple)
 
-def test_hours_per_semester_returns_a_list_of_tuples():
+def test_hours_per_semester_returns_a_list_of_tuples_2():
     assert isinstance(hours_per_semester()[1], tuple)
 
-def test_hours_per_semester_returns_a_list_of_tuples():
+def test_hours_per_semester_returns_a_list_of_tuples_3():
     assert isinstance(hours_per_semester()[2], tuple)
 
-def test_hours_per_semester_returns_a_list_of_tuples():
+def test_hours_per_semester_returns_a_list_of_tuples_4():
     assert isinstance(hours_per_semester()[3], tuple)
 
-def test_hours_per_semester_returns_a_list_of_tuples():
+def test_hours_per_semester_returns_a_list_of_tuples_5():
     assert isinstance(hours_per_semester()[4], tuple)
 
-def test_hours_per_semester_returns_a_list_of_tuples():
+def test_hours_per_semester_returns_a_list_of_tuples_6():
     assert isinstance(hours_per_semester()[5], tuple)
 
 # This set of tests asserts that hours_per_semester returns a list with tuples containing 'spring-even',
@@ -70,60 +70,60 @@ def test_hours_per_semester_contains_summer():
     assert any('summer' in t for t in hours_per_semester())
 
 #This set of tests asserts that hours_per_semester returns a list with tuples with length 2
-def test_hours_per_semester_returns_tuples_length_2():
+def test_hours_per_semester_returns_tuples_length_2_1():
     assert len(hours_per_semester()[0]) == 2
 
-def test_hours_per_semester_returns_tuples_length_2():
+def test_hours_per_semester_returns_tuples_length_2_2():
     assert len(hours_per_semester()[1]) == 2
 
-def test_hours_per_semester_returns_tuples_length_2():
+def test_hours_per_semester_returns_tuples_length_2_3():
     assert len(hours_per_semester()[2]) == 2
 
-def test_hours_per_semester_returns_tuples_length_2():
+def test_hours_per_semester_returns_tuples_length_2_4():
     assert len(hours_per_semester()[3]) == 2
 
-def test_hours_per_semester_returns_tuples_length_2():
+def test_hours_per_semester_returns_tuples_length_2_5():
     assert len(hours_per_semester()[4]) == 2
 
-def test_hours_per_semester_returns_tuples_length_2():
+def test_hours_per_semester_returns_tuples_length_2_6():
     assert len(hours_per_semester()[5]) == 2
 
 #This set of tests checks that the second element in each tuple returned is an int
-def test_hours_per_semester_returns_tuples_with_int():
+def test_hours_per_semester_returns_tuples_with_int_1():
     assert isinstance(hours_per_semester()[0][1], int)
 
-def test_hours_per_semester_returns_tuples_with_int():
+def test_hours_per_semester_returns_tuples_with_int_2():
     assert isinstance(hours_per_semester()[1][1], int)
 
-def test_hours_per_semester_returns_tuples_with_int():
+def test_hours_per_semester_returns_tuples_with_int_3():
     assert isinstance(hours_per_semester()[2][1], int)
 
-def test_hours_per_semester_returns_tuples_with_int():
+def test_hours_per_semester_returns_tuples_with_int_4():
     assert isinstance(hours_per_semester()[3][1], int)
 
-def test_hours_per_semester_returns_tuples_with_int():
+def test_hours_per_semester_returns_tuples_with_int_5():
     assert isinstance(hours_per_semester()[4][1], int)
 
-def test_hours_per_semester_returns_tuples_with_int():
+def test_hours_per_semester_returns_tuples_with_int_6():
     assert isinstance(hours_per_semester()[5][1], int)
 
 # This set of tests asserts that the first item in the tuple produced by hours_per_semester is a string
-def test_hours_per_semester_returns_tuples_with_string():
+def test_hours_per_semester_returns_tuples_with_string_1():
     assert isinstance(hours_per_semester()[0][0], str)
 
-def test_hours_per_semester_returns_tuples_with_string():
+def test_hours_per_semester_returns_tuples_with_string_2():
     assert isinstance(hours_per_semester()[1][0], str)
 
-def test_hours_per_semester_returns_tuples_with_string():
+def test_hours_per_semester_returns_tuples_with_string_3():
     assert isinstance(hours_per_semester()[2][0], str)
 
-def test_hours_per_semester_returns_tuples_with_string():
+def test_hours_per_semester_returns_tuples_with_string_4():
     assert isinstance(hours_per_semester()[3][0], str)
 
-def test_hours_per_semester_returns_tuples_with_string():
+def test_hours_per_semester_returns_tuples_with_string_5():
     assert isinstance(hours_per_semester()[4][0], str)
 
-def test_hours_per_semester_returns_tuples_with_string():
+def test_hours_per_semester_returns_tuples_with_string_6():
     assert isinstance(hours_per_semester()[5][0], str)
 
 
